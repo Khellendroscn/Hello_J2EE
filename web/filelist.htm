@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>共享文件下载</title>
+<link rel="stylesheet" href="images/admin.css">
+<link rel="stylesheet" type="text/css" href="images/core.css">
+<script language="javascript">
+if (parent.frames.length > 0){
+    top.location.replace(document.location);
+}
+
+</script>
+</head>
+<body>
+<div class="srd" id="header">
+    <form method="post" id="searchForm" name="searchForm" action="">
+        <fieldset>
+        <legend>搜索文件</legend>
+        <label for="searchBox">搜索 </label><input type="text" id="searchBox" name="queryString" value="">
+        <input class="button" type="submit" id="search.x" name="search.x" value="搜索">
+        </fieldset>
+        <input name="form_charset" type="hidden" value="UTF-8">
+    </form>
+    <div class="srd" id="navGlobal"><ul>
+        <li class="first signup"><a href="register.htm">注册</a></li>
+        <li class="login"><a href="login.htm">登录</a></li>
+        <li><a href="">帮助</a></li>
+        <li class="last"><a href="">退出</a></li>
+    </ul></div>
+</div>
+<table width="98%" class="tabletoolbar" border="0" cellspacing="1" cellpadding="0" align="center">
+<tr>
+    <td align="left"><div class="TableTitleText">
+        <table align=center width="100%" border="0" borderColor="#00b8d8" cellPadding="2" cellSpacing="0" >
+        <tr><td width=60 valign="top">当前分类：</td><td valign="top"><a href=>文档分类</a></td></tr>
+        </table></div>
+    </td>
+    <td align="right">
+         <input type="button" class="button" value="返回" onclick="javascript:history.go(-1)">
+    </td>
+</tr>
+</table>
+<form name="form1" method="post" action="">
+<table class="TableFrame" align="center" width="98%">
+<input type="hidden" name="pageno" value>
+<tr class="ListTitle">
+    <td align="center" class="ListCellTitle">名称</td>
+    <td align="center" class="ListCellTitle">类别</td>
+    <td align="center" class="ListCellTitle">修改日期</td>
+    <td align="center" class="ListCellTitle">操作</td>
+</tr>
+<tr class="ListRow1">
+    <td class="ListCellrow"><img border="0" src="images/dir.gif">
+        <a href="">内部共享文档</a>
+    </td>
+    <td class="ListCellRow" align="center">文件夹</td>
+    <td class="ListCellRow" align="center">2017-03-03 12:51</td>
+    <td class="ListCellRow" align="center"><a target="_blank" href="download?fileId=10">下载</a></td>
+</tr>
+
+<tr class="ListRow1">
+    <td class="ListCellrow"><img border="0" src="images/pdf.gif">
+        <a href="">MySql的安装配置</a>
+    </td>
+    <td class="ListCellRow" align="center">开发文档</td>
+    <td class="ListCellRow" align="center">2017-03-03 12:51</td>
+    <td class="ListCellRow" align="center"><a target="_blank" href="download?fileId=1">下载</a></td>
+</tr>
+
+<tr class="ListRow1">
+    <td class="ListCellrow"><img border="0" src="images/rar.gif">
+        <a href="">在线相册系统</a>
+    </td>
+    <td class="ListCellRow" align="center">JavaEE源码</td>
+    <td class="ListCellRow" align="center">2017-03-03 12:51</td>
+    <td class="ListCellRow" align="center"><a target="_blank" href="download?fileId=2">下载</a></td>
+</tr>
+
+<tr class="ListRow1">
+    <td class="ListCellrow"><img border="0" src="images/rar.gif">
+        <a href="">Tomcat6.0.18</a>
+    </td>
+    <td class="ListCellRow" align="center">开源软件</td>
+    <td class="ListCellRow" align="center">2017-03-06 12:51</td>
+    <td class="ListCellRow" align="center"><a target="_blank" href="download?fileId=4">下载</a></td>
+</tr>
+
+<tr class="ListRow1">
+    <td class="ListCellrow"><img border="0" src="images/txt.gif">
+        <a href="">JavaWeb开发入门</a>
+    </td>
+    <td class="ListCellRow" align="center">开发文档</td>
+    <td class="ListCellRow" align="center">2017-03-08 12:51</td>
+    <td class="ListCellRow" align="center"><a target="_blank" href="download?fileId=5">下载</a></td>
+</tr>
+
+<tr class="ListRow1">
+    <td class="ListCellrow"><img border="0" src="images/rar.gif">
+        <a href="">MyEclipse 7.0 完美破解版</a>
+    </td>
+    <td class="ListCellRow" align="center">破解软件</td>
+    <td class="ListCellRow" align="center">2017-03-02 12:51</td>
+    <td class="ListCellRow" align="center"><a target="_blank" href="download?fileId=6">下载</a></td>
+</tr>
+
+<tr class="ListRow1">
+    <td class="ListCellrow"><img border="0" src="images/rar.gif">
+        <a href="">DemonStar4.04</a>
+    </td>
+    <td class="ListCellRow" align="center">游戏软件</td>
+    <td class="ListCellRow" align="center">2017-02-08 12:51</td>
+    <td class="ListCellRow" align="center"><a target="_blank" href="download?fileId=7">下载</a></td>
+</tr>
+<tr class="ListRow1">
+    <td class="ListCellrow"><img border="0" src="images/rar.gif">
+        <a href="">屏幕录像专家V7.5.rar</a>
+    </td>
+    <td class="ListCellRow" align="center">共享软件</td>
+    <td class="ListCellRow" align="center">2017-02-08 12:51</td>
+    <td class="ListCellRow" align="center"><a target="_blank" href="download?fileId=8">下载</a></td>
+</tr>
+
+</table>
+
+</form>
+</body>
+</html>

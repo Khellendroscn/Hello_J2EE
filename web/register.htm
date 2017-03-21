@@ -1,0 +1,165 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>个人账户注册</title>
+<link rel="stylesheet" type="text/css" href="images/xptCN.css">
+<link rel="stylesheet" type="text/css" href="images/paypal.css">
+<style type="text/css">
+    select#question1.optionsLong, select#question2.optionsLong, select#question1.optionsLongSmallFont, select#question2.optionsLongSmallFont {
+        width:auto;
+    }
+</style>
+<script type="text/javascript">
+if (parent.frames.length > 0){
+    top.location.replace(document.location);
+}
+</script>
+</head>
+<body>
+<div class="srd" id="header">
+<form method="post" id="searchForm" name="searchForm" action="">
+    <fieldset>
+    <legend>搜索</legend>
+    <label for="searchBox">搜索 </label><input type="text" id="searchBox" name="queryString" value="">
+        <input class="button" type="submit" id="search.x" name="search.x" value="搜索">
+    </fieldset>
+    <input name="form_charset" type="hidden" value="UTF-8">
+</form>
+<div class="srd" id="navGlobal"><ul>
+	<li class="first signup"><a href="register.htm">注册</a></li>
+    <li class="login"><a href="login.htm">登录</a></li>
+    <li class="last"><a href="">帮助</a></li>
+</ul></div>
+</div>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600"><tr valign="top">
+<td align="left" width="25%"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
+<td align="left" width="90%"><img alt="" border="0" src="images/pixel.gif" width="1" height="1"></td>
+<td width="10%"><img alt="" border="0" src="images/pixel.gif" width="1" height="1"></td>
+</tr></table></td>
+<td align="right" valign="top" width="75%"><img alt="" border="0" src="images/pixel.gif" width="1" height="1"></td>
+</tr></table>
+<div class="srd" id="sectionBreak"></div>
+<div id="xptContentMain"><table align="center" border="0" cellpadding="0" cellspacing="0" id="xptContentContainer" width="760">
+<tr><td><div id="xptTitle"><table align="center" border="0" cellpadding="0" cellspacing="0" class="main">
+<tr><td class="heading" width="100%"><h1>
+<span class="superheading">账户注册</span></h1></td></tr>
+<tr><td><img alt="" border="0" height="2" src="images/pixel.gif" width="1"></td></tr>
+<tr><td><hr></td></tr>
+<tr><td><img alt="" border="0" height="4" src="images/pixel.gif" width="1"></td></tr>
+</table></div></td></tr>
+<tr><td valign="top"><div id="signUp">
+<span class="subheading">请填入您的帐户详细信息！</span><br><br>
+<form method="post" action="regist">
+<input type="hidden" name="cmd" value="_flow">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="760"><tr>
+<td valign="top" width="478">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="formTable">
+<tr>
+<td class="topSpacer" width="190"><img alt="" border="0" height="1" src="images/pixel.gif" width="190"></td>
+<td class="topSpacer" width="6"><img alt="" border="0" height="1" src="images/pixel.gif" width="6"></td>
+<td class="topSpacer" width="100%"><img alt="" border="0" height="1" src="images/pixel.gif" width="1"></td>
+</tr>
+<tr>
+<td class="label"><label >帐户名：</label></td>
+<td width="6"><img alt="" border="0" height="1" src="images/pixel.gif" width="6"></td>
+<td align="left" valign="bottom">
+    <input type="text" id="userId" size="25" maxlength="64" class="textLong" name="userId" value="">
+</td>
+</tr>
+<tr>
+<td class="label"><label for="first_name">真实姓名：</label></td>
+<td width="6"><img alt="" border="0" height="1" src="images/pixel.gif" width="6"></td>
+<td align="left" valign="bottom">
+    <input type="text" id="userName" size="25" maxlength="32" class="textLong" name="userName" value="">
+</td>
+</tr>
+<tr>
+<td class="label"><label for="first_name">性别：</label></td>
+<td width="6"><img alt="" border="0" height="1" src="images/pixel.gif" width="6"></td>
+<td align="left" valign="bottom">
+<input type="radio" name="sex" value="0" checked><span class="small">&nbsp;男</span>&nbsp;
+<input type="radio" name="sex" value="1" ><span class="small">&nbsp;女</span>
+</td>
+</tr>
+
+
+<tr>
+<td class="label"><label for="password">密码：</label></td>
+<td width="6"><img alt="" border="0" height="1" src="images/pixel.gif" width="6"></td>
+<td align="left" valign="bottom"><input autocomplete="off" type="password" id="password" name="password" value="" class="textLong focus" size="25" maxlength="40"></td>
+</tr>
+<tr>
+<td class="label"><label for="retype_password">请确认密码：</label></td>
+<td width="6"><img alt="" border="0" height="1" src="images/pixel.gif" width="6"></td>
+<td align="left" valign="bottom"><input autocomplete="off" type="password" id="retype_password" name="retype_password" value="" class="textLong" size="25" maxlength="40"></td>
+</tr>
+
+<tr>
+<td class="label"><label for="grade">班级：</label></td>
+<td width="6"><img alt="" border="0" height="1" src="images/pixel.gif" width="6"></td>
+<td align="left" valign="bottom">
+<div id="trigger_putState_CN_only"></div>
+    <select id="grade" name="grade">
+        <option value="">— 选择班级 —</option>
+        <option value="05">13计算机1班</option>
+        <option value="06">14计算机1班</option>
+        <option value="07">15计算机1班</option>
+        <option value="08">15计算机2班</option>
+        <option value="09">16计算机1班</option>
+    </select>
+</td>
+</tr>
+
+<tr>
+<td class="label"><label for="M_PhoneNumber">移动电话：<br></label></td>
+<td width="6"><img alt="" border="0" height="1" src="images/pixel.gif" width="6"></td>
+<td align="left" valign="bottom"><input type="text" id="M_PhoneNumber" size="13" name="M_PhoneNumber" value=""></td>
+</tr>
+<tr>
+<td class="label"><label for="email">电子邮件：</label></td>
+<td width="6"><img alt="" border="0" height="1" src="images/pixel.gif" width="6"></td>
+<td align="left" valign="bottom">
+<input type="text" id="email" size="25" maxlength="127" class="textLong" name="email" value="">
+</td>
+</tr>
+
+</table>
+
+</td>
+
+<td width="16"><img alt="" border="0" src="images/pixel.gif" width="16" height="1"></td>
+<td rowspan="2" valign="top" width="266"><div class="wrapper"></div></td>
+</tr></table>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="760"><tr>
+<td valign="top" width="478">
+
+</td>
+<td width="16"><img alt="" border="0" src="images/pixel.gif" width="16" height="1"></td>
+<td valign="bottom" width="266"></td>
+</tr></table>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" border="0" src="images/pixel.gif" class="verticalSpacerHigh" width="1" height="1"></td></tr>
+<tr><td class="separationLine"><img alt="" border="0" height="2" src="images/pixel.gif" width="1"></td></tr>
+<tr><td><img alt="" border="0" src="images/pixel.gif" class="verticalSpacerMedium" width="1" height="1"></td></tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="right" width="100%" class="globalButtons">
+<input type="submit" name="next.x" value="注册"></td></tr></table>
+<input name="form_charset" type="hidden" value="UTF-8">
+</form>
+</div></td></tr>
+</table></div>
+<div class="srd" id="footer">
+<h2 class="accessAid">详细信息</h2>
+<ul>
+<li><a href=>关于我们</a></li>
+<li><a href=>隐私</a></li>
+<li><a href=>安全中心</a></li>
+<li><a href=>联系我们</a></li>
+<li><a href=>用户协议</a></li>
+</ul>
+</div>
+
+</body>
+</html>
